@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    padding: 20px;
+    align-items: center;
+}
+
+.left {
+    text-align: right;
+}
+
+.right input {
+    width: 100%;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.right #result {
+    background-color: #332703;
+    padding: 20px;
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #fff;
+    min-height: 60px;
+}
+
+footer {
+    text-align: center;
+    background-color: #444;
+    padding: 10px;
+}
